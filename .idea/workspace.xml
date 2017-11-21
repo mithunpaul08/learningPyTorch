@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11f2d95e-6acc-4ac3-b3f1-8202a589ee15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/englishSpanishClassifier.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emb.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/postag.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,13 +41,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="englishSpanishClassifier.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="englishSpanishClassifier.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/englishSpanishClassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="88" column="47" lean-forward="false" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="emb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding>
+                <element signature="e#1#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postag.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/postag.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+              <folding>
+                <element signature="e#1#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,6 +90,8 @@
     <findStrings>
       <find>grad_fn</find>
       <find>print</find>
+      <find>forward</find>
+      <find>nn.emb</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,6 +103,8 @@
         <option value="$PROJECT_DIR$/initializer.py" />
         <option value="$PROJECT_DIR$/neural_networks_tutorial.py" />
         <option value="$PROJECT_DIR$/englishSpanishClassifier.py" />
+        <option value="$PROJECT_DIR$/emb.py" />
+        <option value="$PROJECT_DIR$/postag.py" />
       </list>
     </option>
   </component>
@@ -323,10 +352,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/englishSpanishClassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="88" column="47" lean-forward="false" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+          <folding>
+            <element signature="e#1#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
